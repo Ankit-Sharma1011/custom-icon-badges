@@ -25,7 +25,7 @@
     "react-dom": "^18.3.1",
     "react-github-btn": "^1.4.0",
     "react-scripts": "^5.0.1",
-    "typescript": "^5.8.2"
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",

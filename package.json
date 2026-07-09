@@ -1,0 +1,70 @@
+{
+  "name": "custom-icon-badges-client",
+  "version": "0.12.1",
+  "description": "Allows users to more easily use their own icons and logos in shields.io badges",
+  "author": "Ankit Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit-Sharma1011/custom-icon-badges.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ankit-Sharma1011/custom-icon-badges/issues"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.14",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.3.1",
+    "react-github-btn": "^1.4.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/eslint-parser": "^7.27.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react": "^7.37.5",
+    "react-test-renderer": "^18.3.1",
+    "sass": "^1.87.0"
+  },
+  "scripts": {
+    "start-client": "react-scripts start",
+    "start": "cd server && yarn start",
+    "build": "yarn install && react-scripts build && (cd server && yarn build)",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(react-github-btn|react-bootstrap))'",
+    "eject": "react-scripts eject",
+    "lint": "yarn eslint . --ext .ts,.tsx && cd server && yarn lint",
+    "lint:fix": "yarn eslint . --ext .ts,.tsx --fix && cd server && yarn lint:fix",
+    "dev": "yarn lint && yarn build && yarn start",
+    "install-all": "yarn install && cd server && yarn install"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
+  }
+}

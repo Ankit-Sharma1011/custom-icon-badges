@@ -184,9 +184,9 @@ Click to get the URL!
 [14]: https://custom-icon-badges.demolab.com/npm/dw/react-bootstrap?logo=download&style=social&label=Download&logoColor=black
 [15]: https://custom-icon-badges.demolab.com/badge/-My%20Repos-blue?style=for-the-badge&logoColor=white&logo=repo
 [16]: https://custom-icon-badges.demolab.com/badge/-Download-F25278?style=for-the-badge&logo=download&logoColor=white
-[17]: https://custom-icon-badges.demolab.com/badge/-123--456--7890-orange?style=for-the-badge&logo=phone&logoColor=white
-[18]: https://custom-icon-badges.demolab.com/badge/-hermione@spew.co.uk-red?style=for-the-badge&logo=mention&logoColor=white
-[19]: https://custom-icon-badges.demolab.com/badge/Colorado-USA-purple?style=for-the-badge&logo=location&logoColor=white
+[17]: https://custom-icon-badges.demolab.com/badge/-9202195667-orange?style=for-the-badge&logo=phone&logoColor=white
+[18]: https://custom-icon-badges.demolab.com/badge/-Ankus1173@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white
+[19]: https://custom-icon-badges.demolab.com/badge/MadhyaPradesh-Bhopal-purple?style=for-the-badge&logo=location&logoColor=white
 [20]: https://custom-icon-badges.demolab.com/badge/-Open%20Issue-palegreen?style=for-the-badge&logoColor=black&logo=issue-opened
 [21]: https://custom-icon-badges.demolab.com/badge/-Discuss-plum?style=for-the-badge&logo=comment-discussion&logoColor=black
 [22]: https://custom-icon-badges.demolab.com/badge/-Install%20Package-gold?style=for-the-badge&logo=package&logoColor=black

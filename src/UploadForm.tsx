@@ -78,11 +78,13 @@ class UploadForm extends React.Component<{}, { slug: string, type: string, data:
     this.setIsLoading(true);
     // send post request to server
     try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ slug, type, data }),
-      });
+      const response = await fetch("https://your-backend.onrender.com/upload", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ slug, type, data }),
+});
       const json = await response.json();
       // success message
       if ("type" in json && "message" in json && json.type === "success") {
